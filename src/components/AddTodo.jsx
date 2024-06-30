@@ -19,8 +19,7 @@ function AddTodo() {
         <input  
             type="text"
             placeholder='add todo...'
-            className='bg-gray-300 border border-gray-100 rounded-lg px-2 py-0.5 focus:outline-none focus:ring-1 focus:ring-indigo-700 focus:border-indigo-50 
-             w-1/2'
+            className='outline-none rounded-md px-3 py-1 focus:ring-2 focus:ring-indigo-500 focus:border-none'
             value={input} 
             onChange={(e)=>setInput(e.target.value)}/>
         <button
